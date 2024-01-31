@@ -1,0 +1,24 @@
+<!DOCTYPE html> <!-- This tells the browser it's an HTML document -->
+<html> <!-- Start of the web page -->
+<head>
+    <meta charset="UTF-8"> <!-- This sets the character encoding to handle text -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- This helps with Internet Explorer compatibility -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This makes the page look good on various devices -->
+    <title>Weather App</title> <!-- This is the title that appears in the browser tab -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- This links to a library for icons and fonts -->
+    <link rel="stylesheet" href="style.css"> <!-- This links to a custom stylesheet for page styling -->
+</head>
+<body>
+<div style="color:white; text-align:center"> <!-- A container for page content with some visual style -->
+    <img src="images/weather-logo.png" style="height: auto; width: auto; filter: drop-shadow(10px 10px 10px black);"> <!-- An image with some visual effects -->
+    <h1>Welcome To MyWhether</h1> <!-- A big title on the page -->
+    <h3>Made by Yogesh Kadam</h3> <!-- A small subtitle with the author's name -->
+    <h2>Technologies Used:</h2> <!-- A title for a section of the page -->
+    <p>HTML, CSS, JS, Java, Servlet, JSP, OpenWeather API</p> <!-- A paragraph listing technologies used -->
+    <form action="MyServlet" method="post" class="searchInput"> <!-- A form for user input -->
+        <input type="text" placeholder="Enter City Name" id="searchInput" value="New Delhi" name="city"> <!-- A field for typing a city name, with a default value -->
+        <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button> <!-- A button with a magnifying glass icon -->
+    </form>
+</div>
+</body>
+</html> <!-- End of the web page -->
